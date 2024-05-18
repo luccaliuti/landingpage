@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-image: url("../img/pexels-freestocks-76942.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(255, 254, 254, 0.5);
+    height: 150px;
+}
+
+.logotipo {
+    width: 200px;
+    padding: 10px;
+}
+
+
+.menu {
+
+    display: flex;
+    gap: 180px;
+}
+
+.menuItem{
+    font-size: 10px;
+    font-weight: 100;
+    padding: 10px;
+}
+menuItem:hover{
+    cursor: pointer;
+}
+
+#acesse , #inscreva{
+    background-color: rgb(234, 206, 206);
+    border-radius: 10px;
+    border-color: rgb(225, 131, 9);
+}
+
+#acesse:hover, #inscreva:hover{
+    background-color: rgb(106, 101, 173);
+}
+.menuItem{
+    font-size: larger;
+    font-weight: 300;
+}
+
+#botao{
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    background-color: beige;
+    border-radius: 10px;
+    border: none;
+    font-size: 10px;
+    color: aquamarine;
+}
+
+#botao:hover{
+    background-color: brown;
+}
